@@ -155,7 +155,7 @@ video_feature_cols = ["Avg_Raw_Pos_X", "Avg_Raw_Pos_Y", "Avg_Raw_Pos_Z",
                       "Avg_Head_Movement_Magnitude"]
 df[video_feature_cols] = df[video_feature_cols].astype('float32')
 
-output_file = "/content/drive/MyDrive/MELD__features_cleaned_dataset.csv"
+output_file = "/content/drive/MyDrive/MELD_features_cleaned_dataset.csv"
 df.to_csv(output_file, index=False)
 
 print(f"Cleaned dataset saved to {output_file}")
