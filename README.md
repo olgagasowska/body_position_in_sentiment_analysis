@@ -104,7 +104,7 @@ The **Text + Video Model** improves accuracy for most speakers, particularly tho
 
 Although it seems that the Text + Video model performs significantly better in the sentiment prediction, it must be taken into account the the multimodal model may not only predict the sentiment, but may learn the characteristics of a particular person. It can identify the person basing on the visual features, and consequently, label a certain person to a specific sentiment.
 
-The Speakers who appear in both models with 100% accuracy have a small variance and tend to express one Sentiment prevalently. Also, the number of occurrences are less or equal to 7 only. This may lead to unreliable results.  
+The Speakers who appear in both models with 100% accuracy have a small variance and tend to express one Sentiment prevalently. Also, the number of these occurrences are less or equal to 7 only. This may lead to unreliable results.  
 
 The fact that among six Speakers with the highest number of occurrences in the dataset (see folder Images), there is also a visible variability in the sentiment labels, may indicate that the Model identifies certain visual cues and uses them to predict the sentiment. However, it may be also connected to the fact that the Model learns to interpret their unique body language and it may not be as powerful when encountering a new person. **In order to analyze the nature of this, a further study with more naturalistic recordings and a greater speaker variability should be conducted.**
 
