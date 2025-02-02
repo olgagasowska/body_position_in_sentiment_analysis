@@ -14,7 +14,7 @@ from tqdm import tqdm
 drive.mount('/content/drive')
 
 #removing duplicates:
-file_path = "/content/drive/MyDrive/Kopia MELD__features_cleaned_dataset.csv"
+file_path = "/content/drive/MyDrive/MELD_features_cleaned_dataset.csv"
 df = pd.read_csv(file_path)
 
 df_cleaned = df.drop_duplicates(subset='Filename', keep='first')
