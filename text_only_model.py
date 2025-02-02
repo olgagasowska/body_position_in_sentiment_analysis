@@ -13,15 +13,6 @@ from tqdm import tqdm
 
 drive.mount('/content/drive')
 
-#removing duplicates:
-file_path = "/content/drive/MyDrive/MELD_features_cleaned_dataset.csv"
-df = pd.read_csv(file_path)
-
-df_cleaned = df.drop_duplicates(subset='Filename', keep='first')
-
-df_cleaned.to_csv("/content/drive/MyDrive/MELD_new_features_cleaned_no_duplicates.csv", index=False)
-
-print(df_cleaned.head())
 
 # loading the dataset
 file_path = "/content/drive/MyDrive/MELD_new_features_cleaned_no_duplicates.csv"
